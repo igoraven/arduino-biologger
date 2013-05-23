@@ -22,7 +22,7 @@ volatile boolean gSlcdBacklight = true; // LCD backlight
 volatile boolean gRecordData = false; // Is recording enabled?
 LoggerRecord gRecords[LOGGER_ARRAY_SIZE]; // Log entries cache
 uint8_t gRecordsCounter = 0; // Current log entry index
-char gCurrentMode = LOGGER_RECORD_TYPE_STATION; // Current environment
+char gCurrentMode = LOGGER_RECORD_TYPE_1; // Current environment type
 char gFileName[] = "data00.csv"; // Log file name mask
 File gFile; // Log file handler
 long gLastLoggerCycleTime = 0; // Last log entry time
@@ -177,13 +177,13 @@ void ReactOnButtons(void)
   if (gModeButton.update() &&
       gModeButton.fallingEdge())
   {
-    if (gCurrentMode == LOGGER_RECORD_TYPE_STATION)
+    if (gCurrentMode == LOGGER_RECORD_TYPE_1)
     {
-      gCurrentMode = LOGGER_RECORD_TYPE_TUNNEL;
+      gCurrentMode = LOGGER_RECORD_TYPE_2;
     }
     else
     {
-      gCurrentMode = LOGGER_RECORD_TYPE_STATION;
+      gCurrentMode = LOGGER_RECORD_TYPE_1;
     }
     DisplayState(gLastRecord);
   }

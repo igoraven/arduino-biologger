@@ -21,8 +21,8 @@ typedef struct
   int soundPressure;
 } LoggerRecord;
 
-#define LOGGER_RECORD_TYPE_STATION 'S'
-#define LOGGER_RECORD_TYPE_TUNNEL 'T'
+#define LOGGER_RECORD_TYPE_1 '1'
+#define LOGGER_RECORD_TYPE_2 '2'
 
 // logger cache size
 #define LOGGER_ARRAY_SIZE 32
