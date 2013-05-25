@@ -35,6 +35,9 @@ Biologger blocks:
 * Reduce the size
 * Correct the sound pressure measurement
 
+## Device photo
+![Device](https://raw.github.com/igoraven/arduino-biologger/master/biologger/real-device.jpg "Device")
+
 ## Links
 * [Teensy++ 2.0 USB Development Board](http://www.pjrc.com/teensy/index.html)
 * [GSR measurement](http://open3.cc/wiki/doku.php?id=bio_feedback)
