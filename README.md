@@ -1,4 +1,4 @@
-# arduino-biologger
+# Device for measuring Bio and Environmental data
 
 ## Overview
 
