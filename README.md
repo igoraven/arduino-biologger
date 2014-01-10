@@ -3,6 +3,7 @@
 ## Overview
 
 This project is a prototype of wearable data logger that measures different metrics of human body and environment. It is based on high-performance Arduino-compatible dev board Teensy++ 2.0 from PJRC and is fully compatible with modern Arduino boards and their derivatives. Source code is written in Arduino development environment.
+> Christian Nold is the first who developed such device and the Emotion Mapping concept. For more information, see http://biomapping.net/
 
 ## Scheme
 
@@ -39,6 +40,7 @@ Biologger blocks:
 ![Device](https://raw.github.com/igoraven/arduino-biologger/master/biologger/real-device.jpg "Device")
 
 ## Links
+* [Christian Nold - the author of original Bio Mapping device and Emotion Mapping concept](http://biomapping.net/)
 * [Teensy++ 2.0 USB Development Board](http://www.pjrc.com/teensy/index.html)
 * [GSR measurement](http://open3.cc/wiki/doku.php?id=bio_feedback)
 * [Seeed Studio Grove Serial LCD](http://www.seeedstudio.com/wiki/index.php?title=Grove_-_Serial_LCD)
